@@ -1,8 +1,13 @@
 ## Versión 2.0.2 – Estructuras Lineales – Ejercicios
 
-Esta versión incluye la solución de los siguientes ejercicios:
+Esta versión contiene la solución a los ejercicios propuestos en la práctica:
 
-- Ejercicio 01: Validar una cadena con paréntesis, corchetes y llaves usando una pila.
-- Ejercicio 02: Ordenar una pila sin usar estructuras adicionales, solo pilas.
+### Ejercicio 01: Validación de paréntesis
+Se implementó el algoritmo que valida si una cadena compuesta por los caracteres '()', '{}', '[]' está balanceada. Se usó una estructura de pila genérica (`StackG<Character>`).
 
-Cada ejercicio está implementado en su respectiva clase con los nombres de métodos especificados y se ha probado para asegurar su funcionamiento correcto.
+### Ejercicio 02: Ordenamiento de pila
+Se ordenó una pila de enteros de forma ascendente (menor en el tope), usando otra pila como auxiliar y sin copiar datos a otras estructuras.
+
+Se ha probado el código con varios casos de entrada para asegurar su correcto funcionamiento.
+
+---
